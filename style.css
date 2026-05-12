@@ -1,0 +1,58 @@
+body {
+    background-color: purple;
+}
+
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.email {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: linear-gradient(135deg, #2b0036, #4b0055);
+    border-radius: 5px;
+}
+
+.name {
+    background: linear-gradient(135deg, #2b0036, #4b0055);
+    border-radius: 5px;
+}
+
+.textarea {
+    background: linear-gradient(135deg, #2b0036, #4b0055);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.submit {
+    width: 150px;
+    height: 25px;
+    margin-left: 8px;
+    background: linear-gradient(135deg, #2b0036, #4b0055);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 70px;
+    margin-left: 30px;
+}
