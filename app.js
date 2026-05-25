@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const textarea = form.querySelector(".textarea").value.trim();
 
     // Telegram API uchun kerakli ma’lumotlar
-    const token = "8603597479:AAFftl5Fp8Rnq_OWpQ2etYNoMHLglYl5gxw";
+    const token = "8720068905:AAEhz3geEGotkKmk06NQhGTlgbDHm4ZuAQY";
     const chat_id = "7290820772";
     const telegramUrl = `https://api.telegram.org/bot${token}/sendMessage`;
 
